@@ -29,6 +29,7 @@ export const App = () => {
   //   number: '',
   //   filter: '',
   // };
+  
 
   componentDidMount() {
     const localStorageContacts = localStorage.getItem('contacts');
