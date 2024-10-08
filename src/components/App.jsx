@@ -53,9 +53,7 @@ export const App = () => {
   };
 
   const deleteContact = id => {
-    this.setState(prevState => ({
-      contacts: prevState.contacts.filter(item => item.id !== id),
-    }));
+    setContacts(contacts.filter(contact => contact.id !== id));
   };
 
   const filterContact = contacts.filter(contacts =>
